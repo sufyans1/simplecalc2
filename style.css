@@ -66,4 +66,14 @@ h1
 {
     background-color: rgb(127, 222, 162);
 }
+.connect
+{
+    font-size: larger;
+    padding: 5%;
+}
+.logo
+{   
+    height: 0.5cm;
+    margin-top:1cm;
+}
 
