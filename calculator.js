@@ -1,4 +1,4 @@
-var screen =document.getElementById('screen');
+var screen=document.getElementById('screen');
 
 function btnClick(value)
 {
@@ -6,10 +6,9 @@ function btnClick(value)
 }
 function btnClear()
 {
-    screen.value=" ";
+    screen.value="";
 }
-function btnResult()
-{   
-     screen.value=eval(screen.value);
+function btnResult(value)
+{
+    screen.value=eval(screen.value);
 }
-   
