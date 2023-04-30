@@ -6,51 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/calcicon.png">
 </head>
-<body>
-    <h1>CALCULATOR</h1>
+<body background="images/background.png">
+    <h1>
+        CALCULATOR
+    </h1>
     <form action="">
-        <div class="container">
-            <div class="casio">
-                <p>
-                    CASIO
-                </p>
-            </div>
-            <div>
-                <input type="text" id="screen">
-            </div>
-            <input type="button" class="button number" value="7" onclick="btnClick(value)">
-            <input type="button" class="button number" value="8"  onclick="btnClick(value)">
-            <input type="button" class="button number" value="9"  onclick="btnClick(value)">
-            <input type="button" class="button operator" value="/"  onclick="btnClick(value)">
-            <br>
-            <input type="button" class="button number" value="4"  onclick="btnClick(value)">
-            <input type="button" class="button number" value="5"  onclick="btnClick(value)">
-            <input type="button" class="button number" value="6"  onclick="btnClick(value)">
-            <input type="button" class="button operator" value="*"  onclick="btnClick(value)">
-            <br>
-            <input type="button" class="button number" value="1"  onclick="btnClick(value)">
-            <input type="button" class="button number" value="2"  onclick="btnClick(value)">
-            <input type="button" class="button number" value="3"  onclick="btnClick(value)">
-            <input type="button" class="button operator" value="-"  onclick="btnClick(value)">
-            <br>
-            <input type="button" class="button number" value="0"  onclick="btnClick(value)">
-            <input type="button" class="button result" value="c"  onclick="btnClear()">
-            <input type="button" class="button operator" value="=" onclick="btnResult()">
-            <input type="button" class="button operator" value="+"  onclick="btnClick(value)">
-        
-           
-        </div>
-    </form>
-    <div class="connect social">
+    <div class="bod">
+    <div class="container">
         <p>
-            <img src="images/linkedin.png" alt="linked in-" class="logo">
-            <a href="https://www.linkedin.com/in/muhammed-sufyan-a-8a8b31263/"> linked in</a>
-            
-            <img src="images/github.png" alt="git hub-" class="logo">
-            <a href="https://github.com/sufyans1"> git hub</a>
+            CASIO
         </p>
+         <input type="text" id="screen">
+         <br>  
+         <input type="button" value="7" class="button number" onclick="btnClick(value)">  
+         <input type="button" value="8" class="button number" onclick="btnClick(value)">
+         <input type="button" value="9" class="button number" onclick="btnClick(value)">
+         <input type="button" value="/" class="button operator" onclick="btnClick(value)">
+         <br>
+         <input type="button" value="4" class="button number" onclick="btnClick(value)">
+         <input type="button" value="5" class="button number" onclick="btnClick(value)">
+         <input type="button" value="6" class="button number" onclick="btnClick(value)">
+         <input type="button" value="*" class="button operator" onclick="btnClick(value)">
+         <br>
+         <input type="button" value="1" class="button number" onclick="btnClick(value)">
+         <input type="button" value="2" class="button number" onclick="btnClick(value)">
+         <input type="button" value="3" class="button number" onclick="btnClick(value)">
+         <input type="button" value="-" class="button operator" onclick="btnClick(value)">
+         <br>
+         <input type="button" value="0" class="button number" onclick="btnClick(value)">
+         <input type="button" value="c" class="button clear" onclick="btnClear()">
+         <input type="button" value="." class="button number" onclick="btnClick(value)">
+         <input type="button" value="+" class="button operator" onclick="btnClick(value)">     
+         <br>
+         <input type="button" value="=" class="button result" onclick="btnResult(value)"> 
     </div>
-    <script src="calculator.js"></script>
+    </div>
+    <img src="images/linkedin.png" alt="linked in-" class="logo">
+    <a href="https://www.linkedin.com/in/muhammed-sufyan-a-8a8b31263/"> linked in</a>
+    <img src="images/github.png" alt="git hub-" class="logo">
+    <a href="https://github.com/sufyans1"> git hub</a>
+    </div>
+    </form>
+   
+    <script src="calc.js"></script>
 </body>
 </html>
