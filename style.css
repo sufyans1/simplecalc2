@@ -70,4 +70,9 @@ p
 {   
     height: 0.5cm;
 }
+.button:hover
+{
+    cursor: pointer;
+    background-color:rgb(92, 135, 226) ;
+}
 
