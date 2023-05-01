@@ -54,11 +54,11 @@ p
 }
 .result
 {
-    border-radius: 5%;
+     margin-bottom: 6vh;
     font-size: xx-large;
     background-color: rgb(67, 212, 67);
-    height: 1.2cm;
-    width: 7.5cm;
+    height: 50px;
+    width: 200px;
 }
 .connect
 {
@@ -77,11 +77,10 @@ p
 }
 .delete
 {
-    margin: 39px;
-    padding-top: 2vh;
+    margin-bottom: 6vh;
     font-size: medium;
+    background-color: rgb(222, 239, 222);
     height: 50px;
     width: 50px;
-    background-color: rgb(220, 234, 214);
 }
 
