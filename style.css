@@ -25,6 +25,7 @@ p
 }
 #screen
 {
+    text-align="right";
     font-size: 2rem;
     background-color: rgb(92, 135, 226);
     border-color: black;
