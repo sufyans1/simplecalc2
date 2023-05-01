@@ -75,4 +75,13 @@ p
     cursor: pointer;
     background-color:rgb(92, 135, 226) ;
 }
+.delete
+{
+    margin: 39px;
+    padding-top: 2vh;
+    font-size: medium;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(220, 234, 214);
+}
 
